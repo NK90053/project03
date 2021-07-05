@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/NK90053/project03/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #navbar {
+            /* border: 2px solid black; */
+            display: flex;
+            /* margin: 3px; */
+            /* padding: 3px; */
+            background-color: tomato;
+        }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        .item {
+            margin: 3px;
+            padding: 13px;
+        }
 
-### Markdown
+        .item a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.3rem;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        }
 
-```markdown
-Syntax highlighted code block
+        .btn {
+            /* align-items: center;
+            margin: left: ; */
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        .search[type=text]:focus:not([readonly]) {
+            border: 1px solid #f48fb1;
+            box-shadow: 0 0 0 1px #f48fb1;
+        }
+    </style>
+</head>
 
-- Bulleted
-- List
+<body>
+    <nav id="navbar">
+        <div class="item"><a href="#">Home</a></div>
+        <div class="item"><a href="#">AboutUs</a></div>
+        <div class="item"><a href="#">ContactUs</a></div>
+        <!-- Search form -->
+        <div class="search">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </div>
+    </nav>
+</body>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NK90053/project03/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
